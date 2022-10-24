@@ -434,3 +434,41 @@ form textarea{
 	  --h2-font: 2.7rem;
 	}
 }
+
+.dialog{
+	width: 90%;
+	height: 90vh;
+	background-color: #1b1e41;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	display: none;
+	z-index: 3;
+	padding: 4rem;
+	border-radius: 2rem;
+}
+
+.dialog iframe {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.dialog button {
+	align-self: end;
+	margin-top: 2rem;
+	border-radius: 0.5rem;
+	color: #fff;
+	background-color: #eb4a4a;
+	font-size: 1.4rem;
+	padding: 0.5rem 2rem;
+	border: none;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+
+.dialog button:hover {
+opacity: 0.8;
+
+}
