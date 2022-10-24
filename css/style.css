@@ -120,6 +120,7 @@ span{
 	color: var(--text-color);
 	border: 1px solid var(--main-color);
 	transition: all .40s ease;
+	cursor: pointer;
 }
 
 .btn:hover{

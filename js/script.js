@@ -26,7 +26,7 @@ const sr = ScrollReveal ({
 })
 
 moreDetails.addEventListener('click', (e)=>{
-	e.preventDefault()
+	
 	dialog.style.display = 'flex'
 	dialog.style.flexDirection = 'column'
 })
