@@ -186,19 +186,19 @@ header.sticky{
 }
 .services-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(500px, auto));
 	align-items: center;
 	text-align: center;
 	gap: 2rem;
 	margin-top: 5rem;
 }
 .box{
-	padding: 45px;
+	padding: 5px;
 	background: #12141c;
 	border-top: 5px solid transparent;
 	border-radius: 0.5rem;
 	transition: all .40s ease;
-	cursor: pointer;
+	
 }
 .box h3{
 	font-size: 24px;
@@ -438,7 +438,7 @@ form textarea{
 
 .dialog{
 	width: 90%;
-	height: 90vh;
+	height: 95%;
 	background-color: #1b1e41;
 	position: fixed;
 	top: 50%;
@@ -462,7 +462,7 @@ form textarea{
 	border-radius: 0.5rem;
 	color: #fff;
 	background-color: #eb4a4a;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	padding: 0.5rem 2rem;
 	border: none;
 	transition: all 0.4s;
@@ -472,4 +472,23 @@ form textarea{
 .dialog button:hover {
 opacity: 0.8;
 
+}
+
+
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
 }
