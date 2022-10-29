@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+	<!---about--->
+	
+        <section class="about" id="about">
+            <div class="about-img">
+                <video width="320" height="400px" loop muted autoplay>
+                    <source src="./img/avatar.webm" type="video/webm">
+                </video>
+            </div>
+    
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h4>Hi, Im Here To Help Your Next Project</h4>
+                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s, When An .ac porta sem turpis quis leo. Nulla in feugiat elit.</p>
+                <div class="about-gri">
+                    <div class="about-in">
+                        <h5>1. Problem Solving</h5>
+                    </div>
+    
+                    <div class="about-in">
+                        <h5>2. Creative Ideea</h5>
+                    </div>
+    
+                    <div class="about-in">
+                        <h5>3. Search a lot</h5>
+                    </div>
+    
+                    <div class="about-in">
+                        <h5>4. High Quality</h5>
+                    </div>
+    
+                </div>
+                <a href="#" class="btn">Contact Me</a>
+                <a href="img/CV.pdf" class="btn">Download CV</a>
+            </div>
+        </section>
+</body>
