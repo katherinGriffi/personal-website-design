@@ -121,6 +121,8 @@ span{
 	border: 1px solid var(--main-color);
 	transition: all .40s ease;
 	cursor: pointer;
+	width: fit-content;
+	height: fit-content;
 }
 
 .btn:hover{
