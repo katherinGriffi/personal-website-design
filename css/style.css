@@ -65,7 +65,7 @@ header{
 }
 
 section{
-	padding: 160px 16% 90px;
+	padding: 80px 8% 60px;
 }
 .home{
 	height: 100vh;
@@ -161,6 +161,7 @@ header.sticky{
 	align-items: center;
 	gap: 1rem;
 	margin-bottom: 3rem;
+	justify-content: flex-end;
 }
 .about-in h5{
 	font-size: 22px;
@@ -380,7 +381,7 @@ form textarea{
 		padding: 8px 3%;
 	}
 	section{
-		padding: 130px 3% 60px;
+		padding: 40px 3% 60px;
 	}
 }
 
@@ -492,4 +493,51 @@ button {
     border: none;
     width: 100px;
     height: 30px;
+}
+
+ul  li{
+	text-decoration: dotted;
+	list-style:disc;
+	line-height: 26px;
+	
+}
+
+ul {
+	padding: 10px 0 20px 20px
+}
+
+
+.btn-container{
+	width: 100%;
+    grid-column: 1 /span 3;
+    display: flex;
+    justify-content: center;
+	margin: 10px;
+}
+
+.btn-container > a:first-child{
+	margin-right: 10px;
+}
+
+.thanks{
+	width:50%;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3rem;
+color: white;
+padding: 3rem;
+height: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 2rem;
+flex-direction: column;
+
+}
+
+.thanks > a {
+	margin-top: 1rem
 }
