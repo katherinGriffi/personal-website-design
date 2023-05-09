@@ -112,13 +112,13 @@ span{
 
 .btnPortfolio{
 	display: inline-block;
-	padding: 8px 20px;
+	padding: 15px 80px;
 	border-radius: 0.5rem;
 	font-size: 15px;
 	font-weight: 500;
 	background: var(--main-color);
 	color: var(--text-color);
-	border: 1px solid var(--main-color);
+	border: 0px solid var(--main-color);
 	transition: all .40s ease;
 	cursor: pointer;
 	width: fit-content;
@@ -224,7 +224,7 @@ header.sticky{
 
 .portfolio-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(850px, auto));
 	align-items: center;
 	gap: 2rem;
 	margin-top: 5rem;
@@ -440,7 +440,7 @@ form textarea{
 }
 
 .dialog{
-	width: 90%;
+	width: 95%;
 	height: 95%;
 	background-color: #1b1e41;
 	position: fixed;
