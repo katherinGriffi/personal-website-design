@@ -266,7 +266,7 @@ header.sticky{
 }
 
 .contact{
-	display: grid;
+	display: block;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	gap: 3rem;
