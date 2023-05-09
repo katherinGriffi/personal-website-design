@@ -97,6 +97,7 @@ span{
 	font-size: 24px;
 	font-weight: 600;
 	margin-bottom: 3rem;
+	
 }
 .btn{
 	display: inline-block;
@@ -203,6 +204,18 @@ header.sticky{
 	transition: all .40s ease;
 	
 }
+
+.helper-text{
+	line-height: 2rem;
+	margin-top: 54px ;
+	padding-inline: 2rem;
+	text-align: justify;
+}
+.flex-one{
+	display: flex;
+	flex-direction: column;
+	flex: 1
+}
 .box h3{
 	font-size: 24px;
 	font-weight: 600;
@@ -221,13 +234,15 @@ header.sticky{
 .box:hover h3{
 	color: var(--main-color);
 }
-
+.portfolio{
+	width: 100%;
+}
 .portfolio-content{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(850px, auto));
-	align-items: center;
-	gap: 2rem;
+	display: flex;
+	flex-direction: column;
 	margin-top: 5rem;
+	width: 100%;
+	
 }
 .row img{
 	height: auto;
@@ -240,6 +255,10 @@ header.sticky{
 	background: #12141c;
 	border-radius: 0.5rem;
 	transition: all .40s ease;
+	width: 100%;
+	margin-block: 2rem;
+	display: flex;
+	flex-direction: row;
 }
 .main-row{
 	display: flex;
@@ -250,6 +269,7 @@ header.sticky{
 .row h3{
 	font-size: 25px;
 	font-weight: 700;
+	margin-bottom: 30px;
 }
 .row h6{
 	color: var(--main-color);
@@ -266,7 +286,7 @@ header.sticky{
 }
 
 .contact{
-	display: inline-block;
+	display: in;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	gap: 3rem;
@@ -304,6 +324,10 @@ header.sticky{
 	transform: scale(1.01) translateY(-5px);
 	color: var(--main-color);
 }
+.contact-icons{
+	margin-bottom: 1rem
+}
+
 .contact-icons i{
 	height: 40px;
 	width: 40px;
@@ -497,14 +521,14 @@ button {
     height: 30px;
 }
 
-ul  li{
+#list  li{
 	text-decoration: dotted;
 	list-style:disc;
 	line-height: 26px;
 	
 }
 
-ul {
+#list {
 	padding: 10px 0 20px 20px
 }
 
